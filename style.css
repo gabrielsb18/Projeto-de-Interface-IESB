@@ -2,9 +2,32 @@ body {
     background-color: #101112;
 }
 
+/* rolagem suave*/
 html {
     scroll-behavior: smooth;
     scroll-padding: 10px;
+}
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Cor do indicador (barra) */
+::-webkit-scrollbar-thumb {
+    background-color: #de4b4b;
+    border-radius: 10px
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #0f0f0f;
+}
+
+/* Cor do indicador ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
+    transition: background-color 0.3s;
 }
 
 header {
