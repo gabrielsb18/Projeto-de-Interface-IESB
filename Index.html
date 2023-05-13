@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Enderwork Studio</title>
+        <link rel="icon" href="/Logos/icon.png" type="image/png"/> 
+
+        <link rel = "stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Lexend+Zetta:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Lexend+Zetta:wght@700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Lexend+Peta:wght@100;400;700;800&family=Lexend+Zetta:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class = "caixa">
+                <a href = "Index.html">
+                <h1><img src = "/Logos/logo.png" class = "logotipo" alt="Logo do Studio Enderwork"></h1></a>
+                <nav>
+                    <ul>
+                        <li class = "testetext"> <a href = "index.html"> Inicio </a></li>
+                        <li> <a href = "sobre.html"> Sobre </a></li>
+                        <li> <a href = "projects.html"> Projects </a></li>
+                        <li> <a href = "contato.html"> Contato </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class = "banner-imagem">
+                <img class = "banner" src="banner3.png" alt = "banner">
+        <div class = "banner-text">
+            <h4>
+                A criatividade é o que move nosso estúdio
+            </h4>
+        </div>
+        </div>
+        <main>
+            <section class = "servicos">
+                <h2>NOSSOS SERVIÇOS</h2>
+                <br>
+                    <ul class="produtos">
+                        <li>
+                            <div class=icon>
+                            <img src = "/Icons/eletronic.png"> 
+                            <h3>ELETRONIC</h3>
+                            </div>
+                            <p2 class="produto-descricao" >Aqui é onde criamos imagens photorealistas a partir de um blueprint do produto fornecido. É ideal para a visualização do produto antes da sua produção em larga escala.</p2>
+                        </li>
+                        <li>
+                            <div class=icon>
+                            <img src="/Icons/character.png">
+                            <h3>CHARACTER</h3>
+                            </div>
+                            <p2 class="produto-descricao">
+                                Damos vida a sua empresa, criamos mascotes criativos  que tenta construir uma identidade visual tornando mais conhecida e amigável com o publico no mundo virtual.</p2>
+                        </li>
+                        <li>
+                            <div class=icon>
+                            <img src = "/Icons/food.png">
+                            <h3>FOOD STYLING</h3>
+                            </div>
+                            <p2 class="produto-descricao">Está com fome? Desenvolvemos projetos que vão dar vida a o seu produto alimentício. Nosso studio usa o poder do 3D e das habilidades dos nossos retoutches  para criar imagens magníficas para publicidade.</p2>
+                        </li>
+                    </ul>
+            </section>
+            <section class="contato">
+                <div>
+                    <h5 class = "titulo">FALE CONOSCO</h5>
+                    <p class="aviso">Para serviços ou vagas de emprego, envie-nos uma mensagem.</p>
+                    <form>    
+                        <label for="nome"></label>
+                        <input type = "text" id = "inputNome" class="input-padrao" required placeholder="Nome" > 
+                        
+                        <label for="sobrenome"></label>
+                        <input type = "text" id = "inputSobrenome" class="input-padrao" required placeholder="Sobrenome">
+                        
+                        <label for="telefone"></label>
+                        <input type = "text" id = "inputTelefone" class="input-padrao" required placeholder="Telefone" > 
+
+                        <label for="email"></label>
+                        <input type = "text" id = "inputEmail" class="input-padrao"  required placeholder="Email"> 
+
+                        <label for="mensagem"></label>
+                        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Deixe uma Mensagem">
+                        </textarea>
+                        <fieldset class = "field">
+                            <legend>Qual horário está disponivel?</legend>
+                            <select class = "selection">
+                                <option required>Selecione</option>
+                                <option>Manha</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                        </fieldset>
+                        <input type="submit" value="Enviar" class="enviar">
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <a href = "Index.html">
+        <img src = "/Logos/logo2.png" class = "logo2" alt = "Logo Estudio Enderwork"></a>
+        <div>
+            <ul class = "icones_rodape">
+                <li class = "icones"><a href= "https://www.artstation.com/gabrielb_3d"><img src = "/Icones_footer/icon4.png" alt="icone4"></a></li>
+                <li class = "icones"><a href="https://www.linkedin.com/in/gabrielmodelador/"><img src = "/Icones_footer/icon3.png" alt="icone3"></a></li>
+                <li class = "icones"><a href="https://www.instagram.com/gabrielsb3d/"><img src = "/Icones_footer/icon2.png" alt="icone2"></a></li>
+                <li class = "icones"><a href="https://vimeo.com/user192910117"><img src = "/Icones_footer/icon1.png" alt="icone1"></a></li>
+            </ul>
+
+            <ul class = "menu_rodape">
+                <li class = "legenda"><a href = "contato.html"><h6>Contato</h6></a></li>
+                <li class = "legenda"><a href = "projects.html"><h6>Projects</h6></a></li>
+                <li class = "legenda"><a href = "sobre.html"><h6>Sobre</h6></a></li>
+                <li class = "legenda"><a href = "Index.html"><h6>Inicio</h6></a></li>
+            </ul>
+
+            <ul class = "contato_rodape">
+                <li class = "legenda2"><h6>Contato</h6></li>
+                <li class = "legenda2"><p>+55 61 98440-9621</p></li>
+                <li class = "legenda2"><p>thevisual@enderwork.com</p></li>
+                <li class = "legenda2"><p>Brazil/Brasília-DF</p></li>
+                <li class = "legenda3"><p>Developed by Enderwork Studio</p></li>
+                <li class = "legenda4"><p>Privacy policy | Terms of use 2023 Enderwork Studios® All rights reserved</p></li>
+            </ul>
+        </div>
+    </footer>
+</html>

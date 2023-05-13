@@ -1,0 +1,386 @@
+body {
+    background-color: #101112;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10px;
+}
+
+header {
+    background: #101112;
+    padding: 20px;  
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9999;
+}
+
+.caixa {
+    background-color: #101112;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo {
+    width: 252px;
+    height: 55px;
+    padding: 72px 52px 52px ;
+}
+
+.caixa ul {
+    list-style: none;
+    display: flex;
+    padding: 0 80px;
+}
+
+.caixa ul li{
+    padding: 30px 34px;
+}
+
+.caixa ul li a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.caixa a:hover {
+    transition: 0.5s;
+    color: #E30613 ;
+}
+
+.banner-imagem{
+    position: relative;
+    width: 100%;
+    top: 135px;
+}
+
+.banner-imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text {
+    font-family: 'Inter';
+    position: absolute;
+    top: 20%;
+    color: #ffffff;
+    padding: 10px;
+    align-items: center;
+}
+
+.banner-text h4{
+    font-size: 92px;
+    font-family: 'Inter';
+    font-weight: bold;
+
+    margin: 0 0 0 100px;
+    line-height: 111px;
+    position: absolute;
+}
+
+footer {
+    background-color: #101112;
+    width: 100%; /**/
+    position: relative;
+    text-align: right;
+}
+
+.logo2 {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+    float: right;
+    margin-top: 60px;
+    margin-right: 90px;
+}
+
+.servicos {
+    position: relative;
+    background-color: #101112;
+    
+    color: #ffffff;
+    text-align: center;
+    font-family: 'cygre';
+    font-style: "bold";
+    font-size: 28px;
+
+    /*margin-top: 30px;*/
+    padding: 10px 10px 80px;
+}
+
+.servicos h2{
+    padding: 10px;
+}
+
+.produto-descricao {
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    line-height: 137.02%;
+    max-width: 230px;
+}
+
+.produtos h3 {
+    font-family: 'Cygre Black';
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.produtos {
+    width: 995px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: inline;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 408px;
+    height: 700px;
+    vertical-align: top;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border: 4px solid #000000;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.icon img {
+    position: relative;
+    display: inline-block;
+    /*border: 6px solid rgb(0, 0, 0);
+    border-radius: 150px;*/
+}
+
+.icon:hover img {
+    opacity: 0.5;
+    transition: 0.8s;
+}
+
+.contato {
+    background-color: #ffffff;
+}
+
+form {
+    margin: 100px 0;
+    padding: 90px;
+    margin-top: -55px
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 64px;
+    padding: 10px 25px;
+    width: 664px;
+    height: 58px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgb(183, 174, 174);
+    font-size: 130%;
+
+    font-family: "Inter";
+}
+
+#inputEmail {
+    width: 797px;
+}
+
+#mensagem {
+    padding: 20px; 
+    text-align: left;
+    width: 807px ;
+    height: 267px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.enviar {
+    display: block;
+    margin: 0 auto;
+    width: 248px;
+    height: 74px;
+
+    padding: 15px 0;
+    background: #F7F7F7;
+    color: #E51A22;
+    text-align: center;
+
+    font-family: 'Wild World';
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid #E51A22;    
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.enviar:hover {
+    background: rgb(0, 0, 0);
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.input-padrao::placeholder {
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: left;
+    font-size: 26px;
+    line-height: 137.02%;
+    letter-spacing: -0.11em;
+   
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.titulo{
+    font-size: 38px;
+    text-align: center;
+    padding: 80px 0 0;
+
+    font-family: 'Lexend Peta', sans-serif;
+    line-height: 137.02%
+}
+
+.aviso {
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: left;
+    font-size: 26px;
+    
+    letter-spacing: 0.07em;
+    max-width: 440px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 145px;
+}
+
+.field {
+    font-family: 'Lexend Peta';
+    border: none;
+    border-style: none;
+}
+
+.selection {
+    margin-top: 36px;
+    font-family: 'Inter';
+    font-style: "normal";
+    text-transform: uppercase;
+    font-size: 16px;
+
+    text-align: center;
+    color: #000000;;
+    width: 130px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #000000; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icones_rodape {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.icones {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.menu_rodape {
+    text-align: left;
+    margin-bottom: 6px;
+    align-items: center;
+    list-style : none;
+}
+
+.menu_rodape li a {
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu_rodape li a:hover{
+    transition: 0.3s;
+    color: #E30613 ;
+}
+
+.legenda {
+    margin-bottom: 8px;
+    margin-left: 147px;
+    margin-top: -140px;
+    font-family: 'cygre';
+    font-style: normal;
+    font-size: 40px ;
+    text-transform: uppercase;
+    height: 33px;
+}
+
+.contato_rodape {
+    color: white;
+    list-style: none;
+    text-align: left;
+    align-items: center;
+    display: inline-block;
+    width: 52%;
+    margin-top: -250px;
+}
+
+.legenda2 {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-size: 19px ;
+    margin-top: 0.1em;
+    font-family: "inter";
+}
+
+.legenda2 h6{
+    font-family: 'cygre';
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 1.2em;
+}
+
+.legenda3 {
+    font-family: "inter";
+    font-style: normal;
+    font-size: 12px ;
+    position: absolute;
+    bottom: -90px;
+}
+
+.legenda4{
+    font-family: "cygre";
+    font-style: normal;
+    font-size: 20px ;
+    position: absolute;
+    max-width: 240px;
+    right: 0;
+
+    margin-top: -60px;
+    margin-right: 10px;
+}

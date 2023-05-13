@@ -1,0 +1,150 @@
+.capa_de_fundo_contato {
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+.capa_de_fundo_contato img {
+   align-items: center;
+   max-width: 100%;
+}
+
+.section_contato {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.formulario_contato {
+    margin: 100px 0;
+    padding: 20px;
+    margin-top: -55px;
+    transform: scale(0.8);
+    text-align: left;
+}
+
+.formulario_contato label, .legend_contato  {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    max-width: 800px;
+    text-transform: uppercase;
+}
+
+.input-padrao_contato {
+    display: block;
+    margin: 0 0 64px;
+    padding: 10px 25px;
+    width: 664px;
+    height: 58px;
+    border: 2px solid rgba(0, 0, 0, 0.621);
+    font-size: 130%;
+
+    font-family: "Inter";
+}
+
+#inputEmail_contato {
+    width: 797px;
+}
+
+#mensagem_contato {
+    padding: 20px; 
+    text-align: left;
+    width: 807px ;
+    height: 267px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.enviar_contato {
+    display: block;
+    width: 248px;
+    height: 74px;
+    margin-top: 120px;
+
+    padding: 15px 0;
+    background: #F7F7F7;
+    color: #E51A22;
+    text-align: center;
+
+    font-family: 'Wild World';
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid #E51A22;    
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.enviar_contato:hover {
+    background: rgb(0, 0, 0);
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.input-padrao_contato::placeholder {
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: left;
+    font-size: 26px;
+    line-height: 137.02%;
+    letter-spacing: -0.11em;
+   
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.titulo_contato{
+    font-size: 38px;
+    text-align: center;
+    padding: 30px 0 0;
+
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.aviso_contato {
+    font-family: 'Lexend Peta', sans-serif;
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 26px;
+    
+    letter-spacing: 0.07em;
+    max-width: 440px;
+    margin-top: 30px;
+}
+
+.endereco_contato {
+    font-family: 'Inter';
+    margin: 0 auto;
+    padding: 76px 70px 70px 0;
+    font-size: 19px;
+    font-weight: 300;
+    
+    letter-spacing: 0.07em;
+    max-width: 640px;
+    float: right;
+}
+
+.selection-contato {
+    margin-top: 36px;
+    font-family: 'Inter';
+    font-style: "normal";
+    text-transform: uppercase;
+    font-size: 16px;
+
+    text-align: center;
+    color: #000000;;
+    width: 130px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #000000; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mapa{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -90px;
+}
